@@ -1,0 +1,49 @@
+h1{
+    font-size: xx-large;
+    color: rgb(1, 1, 1);
+}
+body{
+     
+     width: 350px;
+     height: 350px;
+     margin: 0 auto;
+     margin-top: 150px;
+     transition: 1s;
+     padding: 30px;
+     border: 1px solid #9fff64;
+     border-radius: 15px;
+     filter: blur();
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     box-shadow: 8px 8px 10px #bcc4c6, -8px -8px 10px #ffffff;
+     font-family: 'Raleway', sans-serif;
+;
+     
+}
+input{
+    display: block;
+    font-weight: bold;
+    width: 80%;
+    padding: 10px;
+    border-radius: 30px;
+    filter: blur();
+    box-shadow: inset 8px 8px 10px #bcc4c6, inset -8px -8px 10px #ffffff;
+}
+button{
+    display: block;
+	margin: 0 auto;
+	padding: 6px 70px;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+	background-color:#0ece48;
+	color: #fff;
+	transition: 0.5s;
+	box-shadow: 8px 8px 10px #bcc4c6, -8px -8px 10px #ffffff;
+    
+
+}
